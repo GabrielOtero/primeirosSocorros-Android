@@ -3,7 +3,6 @@ package br.unicamp.primeirossocorros;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,9 +24,13 @@ public class ChooseButtonsPageFragment extends Fragment {
     }
 
     @OnClick(R.id.now_respond)
-    public void choose_buttom() {
-        Log.d("CHOOSE", "BUTTON");
+    public void nowRespond() {
         Intent storyIntent = new Intent(getActivity(), QuizzActivity.class);
         startActivity(storyIntent);
+    }
+
+    @OnClick(R.id.back_to_menu)
+    public void backToMenu() {
+        getActivity().onBackPressed();
     }
 }

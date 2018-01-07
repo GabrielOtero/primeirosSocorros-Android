@@ -22,34 +22,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="AGORA RESPONDA..."
-        android:textSize="30sp"
+        android:textSize="@dimen/choose_button_text_size"
         android:background="@drawable/layout_light_blue"
         android:textColor="@color/white"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/back_to_menu"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginLeft="@dimen/choose_button_lateral_margin"
+        android:layout_marginRight="@dimen/choose_button_lateral_margin"
         android:padding="20dp"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="@dimen/choose_button_vertical_margin"/>
 
     <Button
         android:id="@+id/back_to_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="VOLTAR PARA O MENU"
-        android:textSize="30sp"
+        android:textSize="@dimen/choose_button_text_size"
         android:background="@drawable/layout_light_white"
         android:textColor="@color/black"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/now_respond"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:padding="20dp"
-        android:layout_marginBottom="50dp"/>
+        android:layout_marginLeft="@dimen/choose_button_lateral_margin"
+        android:layout_marginRight="@dimen/choose_button_lateral_margin"
+        android:padding="@dimen/choose_button_padding"
+        android:layout_marginBottom="@dimen/choose_button_vertical_margin"/>
 
 
 </android.support.constraint.ConstraintLayout>

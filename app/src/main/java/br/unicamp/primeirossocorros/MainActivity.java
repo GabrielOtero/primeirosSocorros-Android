@@ -25,4 +25,9 @@ public class MainActivity extends BaseActivity {
         Intent storyIntent = new Intent(this, StoryActivity.class);
         startActivity(storyIntent);
     }
+
+    @Override
+    public void onBackPressed() {
+        this.finish();
+    }
 }
