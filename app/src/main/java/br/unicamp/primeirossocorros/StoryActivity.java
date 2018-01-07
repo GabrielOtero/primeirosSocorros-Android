@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 
-public class StoryActivity extends FragmentActivity {
+public class StoryActivity extends BaseActivity {
     private static final int NUM_PAGES = 5;
 
     private ViewPager mPager;

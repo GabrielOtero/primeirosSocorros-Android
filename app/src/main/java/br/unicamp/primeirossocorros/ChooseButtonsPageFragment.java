@@ -24,8 +24,8 @@ public class ChooseButtonsPageFragment extends Fragment {
         return view;
     }
 
-    @OnClick(R.id.choose_button)
-    public void choose_buttom(){
+    @OnClick(R.id.now_respond)
+    public void choose_buttom() {
         Log.d("CHOOSE", "BUTTON");
         Intent storyIntent = new Intent(getActivity(), QuizzActivity.class);
         startActivity(storyIntent);
