@@ -6,4 +6,7 @@
     <dimen name="choose_button_lateral_margin">15dp</dimen>
     <dimen name="choose_button_vertical_margin">50dp</dimen>
     <dimen name="choose_button_padding">20dp</dimen>
+    <dimen name="main_icon_size">200dp</dimen>
+    <dimen name="main_padding">10dp</dimen>
+    <dimen name="main_font_size">20sp</dimen>
 </resources>
