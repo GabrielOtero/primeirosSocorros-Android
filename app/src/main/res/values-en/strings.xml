@@ -1,0 +1,8 @@
+<resources>
+    <string name="what">What is it?</string>
+    <string name="trauma">Trauma</string>
+    <string name="choking">Choking</string>
+    <string name="seizure">Seizure</string>
+    <string name="fainting">Fainting</string>
+    <string name="arrest">Cardiorespiratory arrest</string>
+</resources>

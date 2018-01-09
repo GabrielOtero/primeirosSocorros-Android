@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros;
+package br.unicamp.primeirossocorros.util;
 
 public enum StoryType {
     WHAT("what", 1),

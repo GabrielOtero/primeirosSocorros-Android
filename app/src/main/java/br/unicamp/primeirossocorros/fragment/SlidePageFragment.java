@@ -2,7 +2,6 @@ package br.unicamp.primeirossocorros.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.StoryType;
+import br.unicamp.primeirossocorros.util.LocaleHelper;
+import br.unicamp.primeirossocorros.util.StoryType;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -35,7 +35,9 @@ public class SlidePageFragment extends Fragment {
         ButterKnife.bind(this, view);
 
 
-        String imageResource = storyType.getDescription() + String.valueOf(position) + "pt";
+        String locale = LocaleHelper.getLanguage(getActivity());
+
+        String imageResource = storyType.getDescription() + String.valueOf(position) + locale;
         int id = getResources().getIdentifier(imageResource, "drawable",
                 getActivity().getPackageName());
 

@@ -1,0 +1,8 @@
+<resources>
+    <string name="what">¿Qué son?</string>
+    <string name="trauma">Trauma</string>
+    <string name="choking">Atoramiento</string>
+    <string name="seizure">Convulsión</string>
+    <string name="fainting">Desmayo</string>
+    <string name="arrest">Paro cardiorrespiratorio</string>
+</resources>

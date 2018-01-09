@@ -8,9 +8,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 
-import br.unicamp.primeirossocorros.Constants;
-import br.unicamp.primeirossocorros.StoryType;
+import br.unicamp.primeirossocorros.util.Constants;
+import br.unicamp.primeirossocorros.util.LocaleHelper;
+import br.unicamp.primeirossocorros.util.StoryType;
 import br.unicamp.primeirossocorros.fragment.NowChoosePageFragment;
 import br.unicamp.primeirossocorros.R;
 import br.unicamp.primeirossocorros.fragment.SlidePageFragment;
@@ -25,6 +27,9 @@ public class StoryActivity extends BaseActivity {
         setContentView(R.layout.activity_story);
 
         StoryType storyType = (StoryType) getIntent().getSerializableExtra(Constants.STORY_TYPE);
+
+        String language = LocaleHelper.getLanguage(this);
+        Log.d("LANGUAGE",language);
 
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager(), storyType);

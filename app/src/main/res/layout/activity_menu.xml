@@ -5,8 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context="br.unicamp.primeirossocorros.activity.MainActivity"
+    tools:context="br.unicamp.primeirossocorros.activity.MenuActivity"
     android:padding="@dimen/main_padding">
+
+
+    <TextView
+        android:id="@+id/pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PT"
+        android:textColor="@color/firstAidRed"
+        android:textSize="@dimen/main_font_size"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/es"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ES"
+        android:textColor="@color/firstAidRed"
+        android:textSize="@dimen/main_font_size"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toLeftOf="@id/pt"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EN"
+        android:textColor="@color/firstAidRed"
+        android:textSize="@dimen/main_font_size"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toLeftOf="@id/es"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:id="@+id/what"
@@ -21,9 +54,10 @@
         app:layout_constraintBottom_toTopOf="@id/seizure" />
 
     <TextView
+        android:id="@+id/what_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="O que é"
+        android:text="@string/what"
         android:textColor="@color/firstAidRed"
         android:textSize="@dimen/main_font_size"
         app:layout_constraintBottom_toBottomOf="@id/what"
@@ -45,9 +79,10 @@
         app:layout_constraintBottom_toTopOf="@id/fainting"/>
 
     <TextView
+        android:id="@+id/trauma_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trauma"
+        android:text="@string/trauma"
         android:textColor="@color/firstAidRed"
         android:textSize="@dimen/main_font_size"
         app:layout_constraintBottom_toBottomOf="@id/trauma"
@@ -68,9 +103,10 @@
         app:layout_constraintBottom_toTopOf="@id/arrest" />
 
     <TextView
+        android:id="@+id/choking_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Engasgo"
+        android:text="@string/choking"
         android:textColor="@color/firstAidRed"
         android:textSize="@dimen/main_font_size"
         app:layout_constraintBottom_toBottomOf="@id/choking"
@@ -91,9 +127,10 @@
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <TextView
+        android:id="@+id/seizure_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Convulsão"
+        android:text="@string/seizure"
         android:textColor="@color/firstAidRed"
         android:textSize="@dimen/main_font_size"
         app:layout_constraintBottom_toBottomOf="@id/seizure"
@@ -115,9 +152,10 @@
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <TextView
+        android:id="@+id/fainting_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Desmaio"
+        android:text="@string/fainting"
         android:textColor="@color/firstAidRed"
         android:textSize="@dimen/main_font_size"
         app:layout_constraintBottom_toBottomOf="@id/fainting"
@@ -138,9 +176,10 @@
         app:layout_constraintBottom_toBottomOf="parent" />
 
     <TextView
+        android:id="@+id/arrest_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Parada Cardiorespiratória"
+        android:text="@string/arrest"
         android:textColor="@color/firstAidRed"
         android:textSize="@dimen/main_font_size"
         app:layout_constraintBottom_toBottomOf="@id/arrest"
