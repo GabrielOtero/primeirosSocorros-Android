@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros;
+package br.unicamp.primeirossocorros.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,11 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import br.unicamp.primeirossocorros.R;
+import br.unicamp.primeirossocorros.StoryType;
+import br.unicamp.primeirossocorros.activity.QuizzActivity;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
-public class ChooseButtonsPageFragment extends Fragment {
+public class NowChoosePageFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

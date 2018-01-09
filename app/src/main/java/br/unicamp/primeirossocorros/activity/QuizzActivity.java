@@ -1,8 +1,9 @@
-package br.unicamp.primeirossocorros;
+package br.unicamp.primeirossocorros.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
+import br.unicamp.primeirossocorros.R;
 import butterknife.ButterKnife;
 
 public class QuizzActivity extends FragmentActivity {

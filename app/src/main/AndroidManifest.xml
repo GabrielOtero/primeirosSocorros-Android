@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
-        android:name=".FirstAIdApplcation">
-        <activity android:name=".SplashScreenActivity"
+        android:name=".aplication.FirstAIdApplcation">
+        <activity android:name=".activity.SplashScreenActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".activity.MainActivity"
             android:screenOrientation="landscape">
         </activity>
-        <activity android:name=".StoryActivity"
+        <activity android:name=".activity.StoryActivity"
             android:screenOrientation="landscape">
         </activity>
-        <activity android:name=".QuizzActivity"
+        <activity android:name=".activity.QuizzActivity"
             android:screenOrientation="landscape">
         </activity>
     </application>

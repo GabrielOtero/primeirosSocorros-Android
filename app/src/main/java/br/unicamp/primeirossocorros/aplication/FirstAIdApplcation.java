@@ -1,7 +1,8 @@
-package br.unicamp.primeirossocorros;
+package br.unicamp.primeirossocorros.aplication;
 
 import android.app.Application;
 
+import br.unicamp.primeirossocorros.R;
 import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 public class FirstAIdApplcation extends Application {

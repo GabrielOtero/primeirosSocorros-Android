@@ -1,10 +1,11 @@
-package br.unicamp.primeirossocorros;
+package br.unicamp.primeirossocorros.activity;
 
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import br.unicamp.primeirossocorros.R;
 import butterknife.ButterKnife;
 
 public class SplashScreenActivity extends BaseActivity {
