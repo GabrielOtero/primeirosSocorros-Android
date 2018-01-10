@@ -5,4 +5,6 @@
     <string name="seizure">Convulsión</string>
     <string name="fainting">Desmayo</string>
     <string name="arrest">Paro cardiorrespiratorio</string>
+
+    <string name="q1">¿Qué es lo primero que se debe hacer ante un trauma?</string>
 </resources>

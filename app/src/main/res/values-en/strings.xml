@@ -5,4 +5,6 @@
     <string name="seizure">Seizure</string>
     <string name="fainting">Fainting</string>
     <string name="arrest">Cardiorespiratory arrest</string>
+
+    <string name="q1">What is the first thing to do in a trauma situation?</string>
 </resources>

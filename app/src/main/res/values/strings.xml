@@ -6,4 +6,6 @@
     <string name="seizure">Convulsão</string>
     <string name="fainting">Desmaio</string>
     <string name="arrest">Parada Cardiorespiratória</string>
+
+    <string name="q1">Qual a primeira coisa a se fazer em uma situação de trauma?</string>
 </resources>
