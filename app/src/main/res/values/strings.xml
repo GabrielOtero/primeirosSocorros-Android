@@ -7,5 +7,7 @@
     <string name="fainting">Desmaio</string>
     <string name="arrest">Parada Cardiorespiratória</string>
 
-    <string name="q1">Qual a primeira coisa a se fazer em uma situação de trauma?</string>
+    <string name="q1trauma">Qual a primeira coisa a se fazer em uma situação de trauma?</string>
+    <string name="q2trauma">Qual situação não caracteriza uma situação que pode gerar um trauma?</string>
+    <string name="q3trauma">O que é um trauma?</string>
 </resources>

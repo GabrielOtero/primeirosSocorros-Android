@@ -22,9 +22,6 @@ public class QuizzActivity extends BaseActivity {
     @BindView(R.id.q3)
     QuestionLayout question3;
 
-    @BindView(R.id.q4)
-    QuestionLayout question4;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,9 +29,16 @@ public class QuizzActivity extends BaseActivity {
         ButterKnife.bind(this);
 
         StoryType storyType = (StoryType) getIntent().getSerializableExtra(Constants.STORY_TYPE);
-        Log.d("STORY", storyType.getDescription());
+        String description = storyType.getDescription();
 
         Resources resources = getResources();
-        question1.setText(resources.getString(R.string.q1));
+        String q1Label = resources.getString(resources.getIdentifier("q1"+description, "string", getPackageName()));
+        question1.setText(q1Label);
+
+        String q2Label = resources.getString(resources.getIdentifier("q2"+description, "string", getPackageName()));
+        question2.setText(q2Label);
+
+        String q3Label = resources.getString(resources.getIdentifier("q3"+description, "string", getPackageName()));
+        question3.setText(q3Label);
     }
 }

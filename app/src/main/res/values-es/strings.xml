@@ -6,5 +6,7 @@
     <string name="fainting">Desmayo</string>
     <string name="arrest">Paro cardiorrespiratorio</string>
 
-    <string name="q1">¿Qué es lo primero que se debe hacer ante un trauma?</string>
+    <string name="q1trauma">¿Qué es lo primero que se debe hacer ante un trauma?</string>
+    <string name="q2trauma">¿Cuál situación no se trata de una situación que puede generar un trauma?</string>
+    <string name="q3trauma">¿Qué es un trauma?</string>
 </resources>

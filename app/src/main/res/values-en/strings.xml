@@ -6,5 +6,7 @@
     <string name="fainting">Fainting</string>
     <string name="arrest">Cardiorespiratory arrest</string>
 
-    <string name="q1">What is the first thing to do in a trauma situation?</string>
+    <string name="q1trauma">What is the first thing to do in a trauma situation?</string>
+    <string name="q2trauma">Which of the situations does not characterize a situation that can generate a trauma?</string>
+    <string name="q3trauma">What is a trauma?</string>
 </resources>
