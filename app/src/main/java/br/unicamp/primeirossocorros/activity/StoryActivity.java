@@ -28,9 +28,6 @@ public class StoryActivity extends BaseActivity {
 
         StoryType storyType = (StoryType) getIntent().getSerializableExtra(Constants.STORY_TYPE);
 
-        String language = LocaleHelper.getLanguage(this);
-        Log.d("LANGUAGE",language);
-
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager(), storyType);
         mPager.setAdapter(mPagerAdapter);
@@ -56,7 +53,9 @@ public class StoryActivity extends BaseActivity {
             }
 
             if(position == storyType.length - 1){
-                return new NowChoosePageFragment();
+                NowChoosePageFragment nowChoosePageFragment = new NowChoosePageFragment();
+                nowChoosePageFragment.setStoryType(storyType);
+                return nowChoosePageFragment;
             }
 
             SlidePageFragment slidePageFragment = getSlidePageFragment(storyType, position);

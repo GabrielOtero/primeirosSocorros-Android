@@ -9,11 +9,15 @@ import android.view.ViewGroup;
 
 import br.unicamp.primeirossocorros.R;
 import br.unicamp.primeirossocorros.activity.QuizzActivity;
+import br.unicamp.primeirossocorros.util.Constants;
+import br.unicamp.primeirossocorros.util.StoryType;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
 public class NowChoosePageFragment extends Fragment {
+
+    private StoryType storyType;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,11 +33,16 @@ public class NowChoosePageFragment extends Fragment {
     @OnClick(R.id.now_respond)
     public void nowRespond() {
         Intent storyIntent = new Intent(getActivity(), QuizzActivity.class);
+        storyIntent.putExtra(Constants.STORY_TYPE, storyType);
         startActivity(storyIntent);
     }
 
     @OnClick(R.id.back_to_menu)
     public void backToMenu() {
         getActivity().onBackPressed();
+    }
+
+    public void setStoryType(StoryType storyType) {
+        this.storyType = storyType;
     }
 }
