@@ -3,6 +3,7 @@ package br.unicamp.primeirossocorros.activity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ScrollView;
@@ -130,11 +131,17 @@ public class QuizzActivity extends BaseActivity {
         question2.setFeedback();
         question3.setFeedback();
 
-        quizzLayout.fullScroll(ScrollView.FOCUS_UP);
-
         sendButton.setVisibility(View.GONE);
         backMenuButton.setVisibility(View.VISIBLE);
         nextStoryButton.setVisibility(View.VISIBLE);
+
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                quizzLayout.fullScroll(ScrollView.FOCUS_UP);
+            }
+        }, 10);
     }
 
     @OnClick(R.id.back_to_menu)

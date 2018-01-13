@@ -1,6 +1,7 @@
 package br.unicamp.primeirossocorros;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.support.constraint.ConstraintLayout;
 import android.support.v4.content.res.ResourcesCompat;
 import android.util.AttributeSet;
@@ -49,6 +50,9 @@ public class QuestionLayout extends ConstraintLayout {
 
         setQuestionLabel();
         setQuestionOptions();
+
+        RIGHT = getResources().getString(R.string.quizz_right);
+        WRONG = getResources().getString(R.string.quizz_wrong);
     }
 
     private void setQuestionOptions() {

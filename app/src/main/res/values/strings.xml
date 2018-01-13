@@ -12,6 +12,9 @@
     <string name="sendLabel">ENVIAR!</string>
     <string name="nowAnswerLabel">AGORA RESPONDA...</string>
 
+    <string name="quizz_right">CORRETO!</string>
+    <string name="quizz_wrong">ERRADO</string>
+
     <string name="q1trauma">Qual a primeira coisa a se fazer em uma situação de trauma?</string>
     <string name="q2trauma">Qual situação não caracteriza uma situação que pode gerar um trauma?</string>
     <string name="q3trauma">O que é um trauma?</string>
@@ -34,6 +37,5 @@
     <string name="q1choking">O que é um engasgo?</string>
     <string name="q2choking">Qual é o lugar que se posiciona o polegar para realizar a manobra de desengasgo?</string>
     <string name="q3choking">O que não deve se fazer na manobra de desengasgo em bebês menores de 1 ano?</string>
-
 
 </resources>

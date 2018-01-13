@@ -11,6 +11,9 @@
     <string name="sendLabel">SEND!</string>
     <string name="nowAnswerLabel">NOW ANSWER...</string>
 
+    <string name="quizz_right">CORRECT!</string>
+    <string name="quizz_wrong">WRONG</string>
+
     <string name="q1trauma">What is the first thing to do in a trauma situation?</string>
     <string name="q2trauma">Which of the situations does not characterize a situation that can generate a trauma?</string>
     <string name="q3trauma">What is a trauma?</string>
@@ -33,4 +36,5 @@
     <string name="q1choking">What is a situation of choking?</string>
     <string name="q2choking">Where is the thumb placed to perform the choking rescue maneuver?</string>
     <string name="q3choking">What is not right to do in the choking rescue maneuver for babies under 1 year?</string>
+
 </resources>
