@@ -6,7 +6,32 @@
     <string name="fainting">Desmayo</string>
     <string name="arrest">Paro cardiorrespiratorio</string>
 
+    <string name="backToMenuLabel">VOLVER AL MENÚ</string>
+    <string name="nextStoryLabel">IR A %1$s!</string>
+    <string name="sendLabel">ENVIAR!</string>
+    <string name="nowAnswerLabel">AHORA RESPONDA...</string>
+
     <string name="q1trauma">¿Qué es lo primero que se debe hacer ante un trauma?</string>
     <string name="q2trauma">¿Cuál situación no se trata de una situación que puede generar un trauma?</string>
     <string name="q3trauma">¿Qué es un trauma?</string>
+
+
+    <string name="q1opt1trauma">Tocar el hombro de la víctima sin moverla.</string>
+    <string name="q1opt2trauma">Llamar a la persona por su nombre, en caso de que sea posible.</string>
+    <string name="q1opt3trauma">No mover a la persona.</string>
+    <string name="q1opt4trauma">Sostener la cabeza.</string>
+
+    <string name="q2opt1trauma">Accidente de auto.</string>
+    <string name="q2opt2trauma">Atoramiento.</string>
+    <string name="q2opt3trauma">Caídas desde lugares altos.</string>
+    <string name="q2opt4trauma">Aplastamiento.</string>
+
+    <string name="q3opt1trauma">Es un tipo de fractura ósea.</string>
+    <string name="q3opt2trauma">Es una enfermedad transmitida por el aire.</string>
+    <string name="q3opt3trauma">Es una enfermedad del corazón.</string>
+    <string name="q3opt4trauma">Es una lesión causada por un golpe o impacto.</string>
+
+    <string name="q1choking">¿Qué es el atoramiento?</string>
+    <string name="q2choking">¿En qué lugar se coloca el pulgar para realizar la maniobra de desatoramiento?</string>
+    <string name="q3choking">¿Qué es lo que no se debe hacer en la maniobra de desatoramiento en bebés menores de 1 año?</string>
 </resources>

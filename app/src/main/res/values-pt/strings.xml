@@ -6,7 +6,31 @@
     <string name="fainting">Desmaio</string>
     <string name="arrest">Parada Cardiorespiratória</string>
 
+    <string name="backToMenuLabel">VOLTAR PARA O MENU!</string>
+    <string name="nextStoryLabel">IR PARA %1$s!</string>
+    <string name="sendLabel">ENVIAR!</string>
+    <string name="nowAnswerLabel">AGORA RESPONDA...</string>
+
     <string name="q1trauma">Qual a primeira coisa a se fazer em uma situação de trauma?</string>
     <string name="q2trauma">Qual situação não caracteriza uma situação que pode gerar um trauma?</string>
     <string name="q3trauma">O que é um trauma?</string>
+
+    <string name="q1opt1trauma">Tocar no ombro da vítima sem movimentá-la.</string>
+    <string name="q1opt2trauma">Chamar a pessoa pelo nome, se possível.</string>
+    <string name="q1opt3trauma">Não movimentar a pessoa.</string>
+    <string name="q1opt4trauma">Segurar a cabeça.</string>
+
+    <string name="q2opt1trauma">Acidente de carro.</string>
+    <string name="q2opt2trauma">Engasgo.</string>
+    <string name="q2opt3trauma">Queda de lugares altos.</string>
+    <string name="q2opt4trauma">Esmagamento.</string>
+
+    <string name="q3opt1trauma">É um tipo de fratura óssea.</string>
+    <string name="q3opt2trauma">É uma doença transmitida pelo ar.</string>
+    <string name="q3opt3trauma">É uma doença do coração.</string>
+    <string name="q3opt4trauma">É uma lesão causada por um golpe ou impacto.</string>
+
+    <string name="q1choking">O que é um engasgo?</string>
+    <string name="q2choking">Qual é o lugar que se posiciona o polegar para realizar a manobra de desengasgo?</string>
+    <string name="q3choking">O que não deve se fazer na manobra de desengasgo em bebês menores de 1 ano?</string>
 </resources>

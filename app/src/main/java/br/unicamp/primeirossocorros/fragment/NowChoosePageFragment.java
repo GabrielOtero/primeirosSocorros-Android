@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import br.unicamp.primeirossocorros.R;
+import br.unicamp.primeirossocorros.activity.MenuActivity;
 import br.unicamp.primeirossocorros.activity.QuizzActivity;
 import br.unicamp.primeirossocorros.util.Constants;
 import br.unicamp.primeirossocorros.util.StoryType;
@@ -37,9 +38,12 @@ public class NowChoosePageFragment extends Fragment {
         startActivity(storyIntent);
     }
 
+
     @OnClick(R.id.back_to_menu)
     public void backToMenu() {
-        getActivity().onBackPressed();
+        Intent intent = new Intent(getActivity(), MenuActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
     }
 
     public void setStoryType(StoryType storyType) {

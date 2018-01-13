@@ -8,15 +8,19 @@ public enum StoryType {
     FAINTING("fainting",3),
     ARREST("arrest",7);
 
-    public String description;
-    public int length;
+    private String description;
+    private int storyLength;
 
     StoryType(String description, int length){
         this.description = description;
-        this.length = length;
+        this.storyLength = length;
     }
 
     public String getDescription(){
         return this.description;
+    }
+
+    public int getStoryLength() {
+        return storyLength;
     }
 }

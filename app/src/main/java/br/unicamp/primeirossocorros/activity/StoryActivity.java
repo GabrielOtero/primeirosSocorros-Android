@@ -8,10 +8,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 
 import br.unicamp.primeirossocorros.util.Constants;
-import br.unicamp.primeirossocorros.util.LocaleHelper;
 import br.unicamp.primeirossocorros.util.StoryType;
 import br.unicamp.primeirossocorros.fragment.NowChoosePageFragment;
 import br.unicamp.primeirossocorros.R;
@@ -33,9 +31,10 @@ public class StoryActivity extends BaseActivity {
         mPager.setAdapter(mPagerAdapter);
     }
 
+
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        super.backToMenuClearTop();
     }
 
     private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
@@ -52,7 +51,7 @@ public class StoryActivity extends BaseActivity {
                 return getSlidePageFragment(storyType, position);
             }
 
-            if(position == storyType.length - 1){
+            if(position == storyType.getStoryLength() - 1){
                 NowChoosePageFragment nowChoosePageFragment = new NowChoosePageFragment();
                 nowChoosePageFragment.setStoryType(storyType);
                 return nowChoosePageFragment;
@@ -72,7 +71,7 @@ public class StoryActivity extends BaseActivity {
 
         @Override
         public int getCount() {
-            return storyType.length;
+            return storyType.getStoryLength();
         }
     }
 }

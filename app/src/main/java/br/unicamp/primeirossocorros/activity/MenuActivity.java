@@ -63,49 +63,43 @@ public class MenuActivity extends BaseActivity {
 
     @OnClick(R.id.what)
     public void onClickWhat() {
-        Intent storyIntent = new Intent(this, StoryActivity.class);
-        storyIntent.putExtra(Constants.STORY_TYPE, StoryType.WHAT);
-        startActivity(storyIntent);
+        goTo(StoryType.WHAT);
     }
 
     @OnClick(R.id.trauma)
     public void onClickTrauma() {
-        Intent storyIntent = new Intent(this, StoryActivity.class);
-        storyIntent.putExtra(Constants.STORY_TYPE, StoryType.TRAUMA);
-        startActivity(storyIntent);
+        goTo(StoryType.TRAUMA);
     }
 
     @OnClick(R.id.choking)
     public void onClickChoking() {
-        Intent storyIntent = new Intent(this, StoryActivity.class);
-        storyIntent.putExtra(Constants.STORY_TYPE, StoryType.CHOKING);
-        startActivity(storyIntent);
+        goTo(StoryType.CHOKING);
     }
 
     @OnClick(R.id.seizure)
     public void onClickSeizure() {
-        Intent storyIntent = new Intent(this, StoryActivity.class);
-        storyIntent.putExtra(Constants.STORY_TYPE, StoryType.SEIZURE);
-        startActivity(storyIntent);
+        goTo(StoryType.SEIZURE);
     }
 
     @OnClick(R.id.fainting)
     public void onClickFainting() {
-        Intent storyIntent = new Intent(this, StoryActivity.class);
-        storyIntent.putExtra(Constants.STORY_TYPE, StoryType.FAINTING);
-        startActivity(storyIntent);
+        goTo(StoryType.FAINTING);
     }
 
     @OnClick(R.id.arrest)
     public void onClickArrest() {
-        Intent storyIntent = new Intent(this, StoryActivity.class);
-        storyIntent.putExtra(Constants.STORY_TYPE, StoryType.ARREST);
-        startActivity(storyIntent);
+        goTo(StoryType.ARREST);
     }
 
     @Override
     public void onBackPressed() {
         this.finish();
+    }
+
+    private void goTo(StoryType storyType) {
+        Intent storyIntent = new Intent(this, StoryActivity.class);
+        storyIntent.putExtra(Constants.STORY_TYPE, storyType);
+        startActivity(storyIntent);
     }
 
     private void updateLanguage(String language) {

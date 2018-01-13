@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activity.QuizzActivity"
-    android:background="@color/firstAidLightYellow">
+    android:background="@color/firstAidLightYellow"
+    android:id="@+id/quizz_layout">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,6 +32,39 @@
             android:layout_width="match_parent"
             android:layout_marginBottom="35dp"
             layout="@layout/question_layout" />
+
+        <Button
+            android:id="@+id/send_quizz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="30dp"
+            android:text="@string/sendLabel"/>
+
+        <Button
+            android:id="@+id/back_to_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="30dp"
+            android:visibility="gone"
+            android:text="@string/backToMenuLabel"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/next_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/positiveBlue"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="30dp"
+            android:visibility="gone"/>
 
     </LinearLayout>
 

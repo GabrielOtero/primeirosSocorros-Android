@@ -6,7 +6,31 @@
     <string name="fainting">Fainting</string>
     <string name="arrest">Cardiorespiratory arrest</string>
 
+    <string name="backToMenuLabel">RETURN TO MENU</string>
+    <string name="nextStoryLabel">GO TO %1$s!</string>
+    <string name="sendLabel">SEND!</string>
+    <string name="nowAnswerLabel">NOW ANSWER...</string>
+
     <string name="q1trauma">What is the first thing to do in a trauma situation?</string>
     <string name="q2trauma">Which of the situations does not characterize a situation that can generate a trauma?</string>
     <string name="q3trauma">What is a trauma?</string>
+
+    <string name="q1opt1trauma">Touching the victim\'s shoulder without moving her.</string>
+    <string name="q1opt2trauma">Call the person by name, if possible.</string>
+    <string name="q1opt3trauma">Do not move the person.</string>
+    <string name="q1opt4trauma">Hold the victim’s head.</string>
+
+    <string name="q2opt1trauma">Car accident.</string>
+    <string name="q2opt2trauma">Choking.</string>
+    <string name="q2opt3trauma">Falling of high places.</string>
+    <string name="q2opt4trauma">Crushing.</string>
+
+    <string name="q3opt1trauma">It is a type of bone fracture.</string>
+    <string name="q3opt2trauma">It is an airborne disease.</string>
+    <string name="q3opt3trauma">It is a cardiovascular disease.</string>
+    <string name="q3opt4trauma">It is an injury caused by a blow or impact.</string>
+
+    <string name="q1choking">What is a situation of choking?</string>
+    <string name="q2choking">Where is the thumb placed to perform the choking rescue maneuver?</string>
+    <string name="q3choking">What is not right to do in the choking rescue maneuver for babies under 1 year?</string>
 </resources>
