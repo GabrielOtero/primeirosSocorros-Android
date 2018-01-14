@@ -37,4 +37,38 @@
     <string name="q2choking">¿En qué lugar se coloca el pulgar para realizar la maniobra de desatoramiento?</string>
     <string name="q3choking">¿Qué es lo que no se debe hacer en la maniobra de desatoramiento en bebés menores de 1 año?</string>
 
+    <string name="q1opt1choking">Es cuando un cuerpo extraño impide el paso del aire hasta el pulmón.</string>
+    <string name="q1opt2choking">Es una enfermedad del pulmón.</string>
+    <string name="q1opt3choking">Es cuando el cerebro se queda sin oxígeno.</string>
+    <string name="q1opt4choking">Es un tipo de caída.</string>
+
+    <string name="q2opt1choking">En medio del pecho de la persona.</string>
+    <string name="q2opt2choking">En el ombligo de la persona.</string>
+    <string name="q2opt3choking">Encima del ombligo de la persona.</string>
+    <string name="q2opt4choking">Abajo del ombligo de la persona.</string>
+
+    <string name="q3opt1choking">Golpear 5 veces la espalda del bebé.</string>
+    <string name="q3opt2choking">Levantar el bebé.</string>
+    <string name="q3opt3choking">Hacer 5 compresiones torácicas.</string>
+    <string name="q3opt4choking">Colocar el bebé para abajo.</string>
+
+    <string name="q1seizure">¿Qué es una convulsión?</string>
+    <string name="q2seizure">¿Qué es lo primero que se debe hacer cuando una persona está teniendo una convulsión?</string>
+    <string name="q3seizure">¿Qué es lo que no se debe hacer con una persona que está teniendo una convulsión?</string>
+
+    <string name="q1opt1seizure">Es cuando una persona se desmaya con el cuerpo tenso y presenta movimientos involuntarios.</string>
+    <string name="q1opt2seizure">Es una enfermedad contagiosa ante la cual debemos mantener distancia de quien la padece.</string>
+    <string name="q1opt3seizure">Es cuando una persona se desmaya y presenta movimientos como parte del intento de levantarse.</string>
+    <string name="q1opt4seizure">Es una enfermedad que provoca problemas en el cerebro dejando a la persona en cama.</string>
+
+    <string name="q2opt1seizure">Tratar de impedir los movimientos.</string>
+    <string name="q2opt2seizure">Abrirle la boca.</string>
+    <string name="q2opt3seizure">Llamar al SAMU.</string>
+    <string name="q2opt4seizure">Darle agua o remedios.</string>
+
+    <string name="q3opt1seizure">Alejar todo lo que este cerca de ella.</string>
+    <string name="q3opt2seizure">Abrirle la boca.</string>
+    <string name="q3opt3seizure">Llamar al SAMU.</string>
+    <string name="q3opt4seizure">Aflojar las ropas y esperar a que los movimientos paren.</string>
+
 </resources>

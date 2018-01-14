@@ -37,4 +37,38 @@
     <string name="q2choking">Where is the thumb placed to perform the choking rescue maneuver?</string>
     <string name="q3choking">What is not right to do in the choking rescue maneuver for babies under 1 year?</string>
 
+    <string name="q1opt1choking">It is a foreign body that prevents the air from getting to the lungs.</string>
+    <string name="q1opt2choking">It is a lung disease.</string>
+    <string name="q1opt3choking">It is when the brain runs out of oxygen.</string>
+    <string name="q1opt4choking">It is a type of fall.</string>
+
+    <string name="q2opt1choking">In the middle of the personperson\'s chest.</string>
+    <string name="q2opt2choking">In the person\'s belly button.</string>
+    <string name="q2opt3choking">Above the person\'s belly button.</string>
+    <string name="q2opt4choking">Below the person\'s belly button.</string>
+
+    <string name="q3opt1choking">Hit the baby\'s back 5 times.</string>
+    <string name="q3opt2choking">Put the baby up.</string>
+    <string name="q3opt3choking">Make 5 chest compressions.</string>
+    <string name="q3opt4choking">Put the baby down.</string>
+
+    <string name="q1seizure">What is a seizure?</string>
+    <string name="q2seizure">What is the first thing to do with a person having a seizure?</string>
+    <string name="q3seizure">What should not be done with a person having a seizure?</string>
+
+    <string name="q1opt1seizure">It is when a person faints with the body tense and presents involuntary movement.</string>
+    <string name="q1opt2seizure">It is a contagious disease where you cannot get close to the person.</string>
+    <string name="q1opt3seizure">It is when the person passes out and moves attempting to get up.</string>
+    <string name="q1opt4seizure">It is a disease that causes brain damage and leaves the person bedridden.</string>
+
+    <string name="q2opt1seizure">Try to stop the movements.</string>
+    <string name="q2opt2seizure">Open the person\'s mouth.</string>
+    <string name="q2opt3seizure">Call the Emergency Medical Service.</string>
+    <string name="q2opt4seizure">Give water or medicine to the person.</string>
+
+    <string name="q3opt1seizure">Remove everything that is close to the person.</string>
+    <string name="q3opt2seizure">Open the person\'s mouth.</string>
+    <string name="q3opt3seizure">Call the Emergency Medical Service.</string>
+    <string name="q3opt4seizure">Loosen victim’s clothes and wait for the movements to stop.</string>
+
 </resources>

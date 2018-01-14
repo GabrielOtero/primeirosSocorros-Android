@@ -38,4 +38,38 @@
     <string name="q2choking">Qual é o lugar que se posiciona o polegar para realizar a manobra de desengasgo?</string>
     <string name="q3choking">O que não deve se fazer na manobra de desengasgo em bebês menores de 1 ano?</string>
 
+    <string name="q1opt1choking">É um corpo estranho que impede a passagem do ar até chegar no pulmão.</string>
+    <string name="q1opt2choking">É uma doença do pulmão.</string>
+    <string name="q1opt3choking">É quando o cérebro fica sem oxigênio.</string>
+    <string name="q1opt4choking">É um tipo de queda.</string>
+
+    <string name="q2opt1choking">No meio do peito da pessoa.</string>
+    <string name="q2opt2choking">No umbigo da pessoa.</string>
+    <string name="q2opt3choking">Acima do umbigo da pessoa.</string>
+    <string name="q2opt4choking">Abaixo do umbigo da pessoa.</string>
+
+    <string name="q3opt1choking">Golpear 5 vezes as costas do bebê.</string>
+    <string name="q3opt2choking">Colocar o bebê para cima.</string>
+    <string name="q3opt3choking">Fazer 5 compressões torácicas.</string>
+    <string name="q3opt4choking">Colocar o bebê para baixo</string>
+
+    <string name="q1seizure">O que é Convulsão?</string>
+    <string name="q2seizure">Qual é a primeira coisa a se fazer com a pessoa que está tendo convulsão?</string>
+    <string name="q3seizure">O que <b>não</b> deve se fazer com uma pessoa que está tendo convulsão?</string>
+
+    <string name="q1opt1seizure">É quando uma pessoa desmaia com o corpo tenso e apresenta movimento involuntário.</string>
+    <string name="q1opt2seizure">É uma doença contagiosa em que não pode se aproximar da pessoa.</string>
+    <string name="q1opt3seizure">É quando a pessoa desmaia e apresenta movimentos na tentativa de se levantar.</string>
+    <string name="q1opt4seizure">É uma doença que causa problemas no cérebro e deixa a pessoa acamada.</string>
+
+    <string name="q2opt1seizure">Tentar impedir os movimentos.</string>
+    <string name="q2opt2seizure">Abrir a boca da pessoa.</string>
+    <string name="q2opt3seizure">Ligar para o SAMU.</string>
+    <string name="q2opt4seizure">Dar água ou remédio para a pessoa.</string>
+
+    <string name="q3opt1seizure">Afastar tudo que estiver por perto da pessoa.</string>
+    <string name="q3opt2seizure">Abrir a boca da pessoa.</string>
+    <string name="q3opt3seizure">Ligar para o SAMU.</string>
+    <string name="q3opt4seizure">Afrouxar roupas e esperar que os movimentos parem.</string>
+
 </resources>
