@@ -71,4 +71,60 @@
     <string name="q3opt3seizure">Llamar al SAMU.</string>
     <string name="q3opt4seizure">Aflojar las ropas y esperar a que los movimientos paren.</string>
 
+    <string name="q1fainting">¿Qué es un desmayo?</string>
+    <string name="q2fainting">¿Qué se debe hacer con una persona que se desmaya?</string>
+    <string name="q3fainting">¿Qué es lo que no se debe hacer con una persona que se desmaya?</string>
+
+    <string name="q1opt1fainting">Es cuando una persona se cae después de tropezar con algo.</string>
+    <string name="q1opt2fainting">Es la pérdida temporaria y repentina de la consciencia.</string>
+    <string name="q1opt3fainting">Es la pérdida del equilibrio.</string>
+    <string name="q1opt4fainting">Siempre sucederá en las personas que van a convulsionar.</string>
+
+    <string name="q2opt1fainting">Mantener a la persona de pie y esperar ayuda.</string>
+    <string name="q2opt2fainting">Mantener a la persona acostada con la cabeza más alta que el cuerpo hasta que la ayuda llegue.</string>
+    <string name="q2opt3fainting">Dejar sola a la persona y pedir ayuda.</string>
+    <string name="q2opt4fainting">Mantener a la persona acostada con la cabeza más baja que el cuerpo hasta que la ayuda llegue.</string>
+
+    <string name="q3opt1fainting">Dejar a la persona de pie y esperar la ayuda.</string>
+    <string name="q3opt2fainting">Permanecer al lado de la persona hasta que la ayuda llegue.</string>
+    <string name="q3opt3fainting">Pedir ayuda y darle espacio a la persona para que respire.</string>
+    <string name="q3opt4fainting">Mantener a la persona acostada con la cabeza más baja que el cuerpo hasta que la ayuda llegue.</string>
+
+    <string name="q1arrest">¿Qué es un paro cardiorrespiratorio?</string>
+    <string name="q2arrest">¿Cómo sabemos si una persona está sufriendo un paro cardíaco?</string>
+    <string name="q3arrest">¿Qué debemos hacer en todo caso de paro cardiorrespiratorio?</string>
+    <string name="q4arrest">¿Cuántas compresiones se deben hacer en 1 minuto?</string>
+    <string name="q5arrest">¿Qué es DEA? ¿Quién puede usarlo?</string>
+    <string name="q6arrest">¿Qué hace el DEA?</string>
+
+    <string name="q1opt1arrest">Es cuando una persona para de respirar y su corazón para de latir.</string>
+    <string name="q1opt2arrest">Es únicamente cuando una persona para de respirar.</string>
+    <string name="q1opt3arrest">Es únicamente cuando el corazón para de latir.</string>
+    <string name="q1opt4arrest">Es cuando una persona necesita ayuda para respirar.</string>
+
+    <string name="q2opt1arrest">Sintiendo la temperatura de su cuerpo.</string>
+    <string name="q2opt2arrest">Vemos a la persona desesperada por respirar, moviéndose inquieta.</string>
+    <string name="q2opt3arrest">No vemos movimiento del tórax, no oímos el ruido de la respiración ni sentimos la salida de aire en nuestra piel si acercamos nuestra mano cerca de la nariz de la persona.</string>
+    <string name="q2opt4arrest">Escuchando a la persona pedir ayuda, diciendo que no puede respirar.</string>
+
+    <string name="q3opt1arrest">Dejar sola a la persona y buscar ayuda.</string>
+    <string name="q3opt2arrest">Permanecer al lado de la persona hasta que la ayuda llegue.</string>
+    <string name="q3opt3arrest">Pedir ayuda a gritos desesperadamente.</string>
+    <string name="q3opt4arrest">Permanecer al lado de la persona hasta que comiencen las compresiones.</string>
+
+    <string name="q4opt1arrest">80-100 compresiones.</string>
+    <string name="q4opt2arrest">90-100 compresiones.</string>
+    <string name="q4opt3arrest">90-110 compresiones.</string>
+    <string name="q4opt4arrest">100-120 compresiones.</string>
+
+    <string name="q5opt1arrest">Dispositivo Externo Automático. Solamente el SAMU.</string>
+    <string name="q5opt2arrest">Desfibrilador Externo Automático. Cualquier persona orientada para usarlo.</string>
+    <string name="q5opt3arrest">Dispositivo Externo Automático. Cualquier persona orientada para usarlo.</string>
+    <string name="q5opt4arrest">Desfibrilador Externo Automático. Solamente el SAMU.</string>
+
+    <string name="q6opt1arrest">Analiza el corazón de la persona y aplica un choque eléctrico para que el corazón vuelva a latir.</string>
+    <string name="q6opt2arrest">Analiza el corazón de la persona y hace compresiones en el tórax.</string>
+    <string name="q6opt3arrest">Aplica un choque eléctrico en el corazón de la persona para que este vuelva a latir.</string>
+    <string name="q6opt4arrest">Analiza el corazón de la persona.</string>
+
 </resources>

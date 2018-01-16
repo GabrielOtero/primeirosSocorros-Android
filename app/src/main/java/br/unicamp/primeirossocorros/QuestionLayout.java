@@ -55,6 +55,11 @@ public class QuestionLayout extends ConstraintLayout {
         WRONG = getResources().getString(R.string.quizz_wrong);
     }
 
+    @Override
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+    }
+
     private void setQuestionOptions() {
         labelOpt1 = (TextView) findViewById(R.id.opt1_check);
         labelOpt1.setText(opt1);

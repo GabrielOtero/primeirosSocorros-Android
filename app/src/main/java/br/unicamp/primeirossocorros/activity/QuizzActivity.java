@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
 import java.lang.reflect.Field;
@@ -31,6 +32,18 @@ public class QuizzActivity extends BaseActivity {
 
     @BindView(R.id.q3)
     QuestionLayout question3;
+
+    @BindView(R.id.q4)
+    QuestionLayout question4;
+
+    @BindView(R.id.q5)
+    QuestionLayout question5;
+
+    @BindView(R.id.q6)
+    QuestionLayout question6;
+
+    @BindView(R.id.question_layout_holder)
+    LinearLayout questionLayoutHolder;
 
     @BindView(R.id.quizz_layout)
     ScrollView quizzLayout;
@@ -58,6 +71,16 @@ public class QuizzActivity extends BaseActivity {
         setQuestion(1, question1);
         setQuestion(2, question2);
         setQuestion(3, question3);
+
+        if (storyType == StoryType.ARREST) {
+            question4.setVisibility(View.VISIBLE);
+            question5.setVisibility(View.VISIBLE);
+            question6.setVisibility(View.VISIBLE);
+
+            setQuestion(4, question4);
+            setQuestion(5, question5);
+            setQuestion(6, question6);
+        }
 
         setNextStoryButton();
     }
@@ -109,9 +132,7 @@ public class QuizzActivity extends BaseActivity {
         List<StoryType> storyTypes = Arrays.asList(storyArray);
         int storyIdx = storyTypes.indexOf(storyType);
 
-        if (isLastStory(storyTypes, storyIdx)) {
-            nextStoryButton.setVisibility(View.GONE);
-        } else {
+        if (!isLastStory()) {
             nextStory = storyTypes.get(storyIdx + 1);
 
             Resources resources = getResources();
@@ -121,7 +142,10 @@ public class QuizzActivity extends BaseActivity {
         }
     }
 
-    private boolean isLastStory(List<StoryType> storyTypes, int storyIdx) {
+    private boolean isLastStory() {
+        StoryType[] storyArray = EnumSet.allOf(StoryType.class).toArray(new StoryType[StoryType.values().length]);
+        List<StoryType> storyTypes = Arrays.asList(storyArray);
+        int storyIdx = storyTypes.indexOf(storyType);
         return storyIdx == storyTypes.size() - 1;
     }
 
@@ -133,7 +157,10 @@ public class QuizzActivity extends BaseActivity {
 
         sendButton.setVisibility(View.GONE);
         backMenuButton.setVisibility(View.VISIBLE);
-        nextStoryButton.setVisibility(View.VISIBLE);
+
+        if (!isLastStory()) {
+            nextStoryButton.setVisibility(View.VISIBLE);
+        }
 
 
         new Handler().postDelayed(new Runnable() {

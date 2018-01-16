@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizz_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.QuizzActivity"
     android:background="@color/firstAidLightYellow"
-    android:id="@+id/quizz_layout">
+    tools:context=".activity.QuizzActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,58 +13,91 @@
         android:orientation="vertical"
         android:padding="30dp">
 
-        <include
-            android:id="@+id/q1"
-            android:layout_height="wrap_content"
+        <LinearLayout
+            android:id="@+id/question_layout_holder"
             android:layout_width="match_parent"
-            android:layout_marginBottom="35dp"
-            layout="@layout/question_layout"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
 
-        <include
-            android:id="@+id/q2"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="35dp"
-            layout="@layout/question_layout" />
-        <include
-            android:id="@+id/q3"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="35dp"
-            layout="@layout/question_layout" />
+            <include
+                android:id="@+id/q1"
+                layout="@layout/question_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp" />
+
+            <include
+                android:id="@+id/q2"
+                layout="@layout/question_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp" />
+
+            <include
+                android:id="@+id/q3"
+                layout="@layout/question_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp" />
+
+            <include
+                android:id="@+id/q4"
+                layout="@layout/question_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/q5"
+                layout="@layout/question_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:visibility="gone" />
+
+            <include
+                android:id="@+id/q6"
+                layout="@layout/question_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/send_quizz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/green"
-            android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:textSize="30dp"
-            android:text="@string/sendLabel"/>
+            android:paddingTop="15dp"
+            android:text="@string/sendLabel"
+            android:textSize="30dp" />
 
         <Button
             android:id="@+id/back_to_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:background="@color/white"
-            android:textColor="@color/black"
-            android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:textSize="30dp"
-            android:visibility="gone"
+            android:paddingTop="15dp"
             android:text="@string/backToMenuLabel"
-            android:layout_marginBottom="10dp"/>
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/next_story"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/positiveBlue"
-            android:paddingTop="15dp"
             android:paddingBottom="15dp"
+            android:paddingTop="15dp"
             android:textSize="30dp"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
     </LinearLayout>
 

@@ -5,7 +5,7 @@
     <string name="choking">Engasgo</string>
     <string name="seizure">Convulsão</string>
     <string name="fainting">Desmaio</string>
-    <string name="arrest">Parada Cardiorespiratória</string>
+    <string name="arrest">Parada\nCardiorespiratória</string>
 
     <string name="backToMenuLabel">VOLTAR PARA O MENU!</string>
     <string name="nextStoryLabel">IR PARA %1$s!</string>
@@ -55,7 +55,7 @@
 
     <string name="q1seizure">O que é Convulsão?</string>
     <string name="q2seizure">Qual é a primeira coisa a se fazer com a pessoa que está tendo convulsão?</string>
-    <string name="q3seizure">O que <b>não</b> deve se fazer com uma pessoa que está tendo convulsão?</string>
+    <string name="q3seizure">O que não deve se fazer com uma pessoa que está tendo convulsão?</string>
 
     <string name="q1opt1seizure">É quando uma pessoa desmaia com o corpo tenso e apresenta movimento involuntário.</string>
     <string name="q1opt2seizure">É uma doença contagiosa em que não pode se aproximar da pessoa.</string>
@@ -71,5 +71,61 @@
     <string name="q3opt2seizure">Abrir a boca da pessoa.</string>
     <string name="q3opt3seizure">Ligar para o SAMU.</string>
     <string name="q3opt4seizure">Afrouxar roupas e esperar que os movimentos parem.</string>
+
+    <string name="q1fainting">O que é desmaio?</string>
+    <string name="q2fainting">O que deve ser feito com a pessoa que desmaia?</string>
+    <string name="q3fainting">O que não deve ser feito com a pessoa que desmaia?</string>
+
+    <string name="q1opt1fainting">É quando a pessoa cai depois de tropeçar em algo.</string>
+    <string name="q1opt2fainting">É a perda temporária e repentina da consciência.</string>
+    <string name="q1opt3fainting">É a perda do equilíbrio.</string>
+    <string name="q1opt4fainting">Sempre vai acontecer nas pessoas que vão começar a convulsionar.</string>
+
+    <string name="q2opt1fainting">Deixar a pessoa de pé e esperar o socorro.</string>
+    <string name="q2opt2fainting">Deixar a pessoa deitada com a cabeça mais alta que o corpo até o socorro chegar.</string>
+    <string name="q2opt3fainting">Deixar a pessoa sozinha e chamar o socorro.</string>
+    <string name="q2opt4fainting">Deixar a pessoa deitada com a cabeça mais baixa que o corpo até o socorro chegar.</string>
+
+    <string name="q3opt1fainting">Deixar a pessoa de pé e esperar o socorro.</string>
+    <string name="q3opt2fainting">Ficar ao lado da pessoa até o socorro chegar.</string>
+    <string name="q3opt3fainting">Chamar Socorro e proporcionar espaço para a pessoa respirar.</string>
+    <string name="q3opt4fainting">Deixar a pessoa deitada com a cabeça mais baixa que o corpo até o socorro chegar.</string>
+
+    <string name="q1arrest">O que é uma parada cardiorrespiratória?</string>
+    <string name="q2arrest">Como sabemos que a pessoa está tendo uma parada respiratória?</string>
+    <string name="q3arrest">O que devemos fazer em toda a parada cardiorrespiratória?</string>
+    <string name="q4arrest">Quantas compressões deve se fazer em 1 minuto?</string>
+    <string name="q5arrest">O que é DEA? Quem pode usá-lo?</string>
+    <string name="q6arrest">O que o DEA faz?</string>
+
+    <string name="q1opt1arrest">É quando a pessoa para de respirar e o coração dela para de bater.</string>
+    <string name="q1opt2arrest">É somente quando a pessoa para de respirar.</string>
+    <string name="q1opt3arrest">É somente quando o coração para de bater.</string>
+    <string name="q1opt4arrest">É quando a pessoa precisa de ajuda para respirar.</string>
+
+    <string name="q2opt1arrest">Sentindo a temperatura do corpo.</string>
+    <string name="q2opt2arrest">Vendo a pessoa desesperada para respirar, movimentando-se para todos os lados</string>
+    <string name="q2opt3arrest">Vendo o tórax não se mexer, não ouvir o barulho da respiração ou não sentir a saída de ar na pele ao aproximar a mão perto do nariz da pessoa.</string>
+    <string name="q2opt4arrest">Ouvindo a pessoa chamar socorro, dizendo que não consegue respirar.</string>
+
+    <string name="q3opt1arrest">Deixar a pessoa sozinha e procurar ajuda.</string>
+    <string name="q3opt2arrest">Ficar do lado da pessoa até o socorro chegar.</string>
+    <string name="q3opt3arrest">Gritar desesperadamente por socorro.</string>
+    <string name="q3opt4arrest">Ficar do lado da pessoa até começarem as compressões.</string>
+
+    <string name="q4opt1arrest">80-100 compressões.</string>
+    <string name="q4opt2arrest">90-100 compressões.</string>
+    <string name="q4opt3arrest">90-110 compressões.</string>
+    <string name="q4opt4arrest">100-120 compressões.</string>
+
+    <string name="q5opt1arrest">Dispositivo Externo Automático. Somente o SAMU.</string>
+    <string name="q5opt2arrest">Desfibrilador Externo Automático. Qualquer pessoa orientada para uso.</string>
+    <string name="q5opt3arrest">Dispositivo Externo Automático. Qualquer pessoa orientada para uso.</string>
+    <string name="q5opt4arrest">Desfibrilador Externo Automático. Somente o SAMU.</string>
+
+    <string name="q6opt1arrest">Ele analisa o coração da pessoa e, quando apropriado, aplica um choque para o coração voltar a bater.</string>
+    <string name="q6opt2arrest">Ele analisa o coração da pessoa e faz compressão no tórax dela.</string>
+    <string name="q6opt3arrest">Ele aplica um choque no coração da pessoa para que ele volte a bater.</string>
+    <string name="q6opt4arrest">Ele analisa o coração da pessoa.</string>
 
 </resources>

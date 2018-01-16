@@ -71,4 +71,60 @@
     <string name="q3opt3seizure">Call the Emergency Medical Service.</string>
     <string name="q3opt4seizure">Loosen victim’s clothes and wait for the movements to stop.</string>
 
+    <string name="q1fainting">What is fainting?</string>
+    <string name="q2fainting">What should be done with a person who faints?</string>
+    <string name="q3fainting">What should not be done with a person who faints?</string>
+
+    <string name="q1opt1fainting">It is when a person falls after stumbling on something.</string>
+    <string name="q1opt2fainting">It is the temporary and sudden loss of consciousness.</string>
+    <string name="q1opt3fainting">It is the loss of balance.</string>
+    <string name="q1opt4fainting">It will always happen in people who are going to have a seizure.</string>
+
+    <string name="q2opt1fainting">Let the person stand and wait for medical help.</string>
+    <string name="q2opt2fainting">Let the person lying down with her head higher than the body until the rescue arrives.</string>
+    <string name="q2opt3fainting">Leave the person alone and call for help.</string>
+    <string name="q2opt4fainting">Let the person lying down with the head lower than the body until the rescue arrives.</string>
+
+    <string name="q3opt1fainting">Let the person stand and wait for medical help.</string>
+    <string name="q3opt2fainting">Stand beside the person until the help arrives.</string>
+    <string name="q3opt3fainting">Call for help and provide room for the person to breathe.</string>
+    <string name="q3opt4fainting">Let the person lying down with the head lower than the body until the rescue arrives.</string>
+
+    <string name="q1arrest">What is a cardiorespiratory arrest?</string>
+    <string name="q2arrest">How do we know that the person is having a respiratory arrest?</string>
+    <string name="q3arrest">What should we do in every cardiorespiratory arrest?</string>
+    <string name="q4arrest">How many compressions should be done in 1 minute?</string>
+    <string name="q5arrest">What is an AED? Who can use it?</string>
+    <string name="q6arrest">What does the AED do?</string>
+
+    <string name="q1opt1arrest">It is when the person stops breathing and her heart stops beating.</string>
+    <string name="q1opt2arrest">It is only when the person stops breathing.</string>
+    <string name="q1opt3arrest">It is only when the heart stops beating.</string>
+    <string name="q1opt4arrest">It is when the person needs help to breathe.</string>
+
+    <string name="q2opt1arrest">Feeling the temperature of the body.</string>
+    <string name="q2opt2arrest">Seeing the person desperate to breathe, moving to all sides.</string>
+    <string name="q2opt3arrest">Seeing the chest not moving, by not hearing breathing noises or by not feeling the air coming out when approaching your hand near to the person\'s nose.</string>
+    <string name="q2opt4arrest">Hearing the person calling for help, saying that she cannot breathe.</string>
+
+    <string name="q3opt1arrest">Leave the person alone and seek for help.</string>
+    <string name="q3opt2arrest">Stand by the person until the help arrives.</string>
+    <string name="q3opt3arrest">Scream desperately for help.</string>
+    <string name="q3opt4arrest">Stay on the person\'s side until someone start compressions.</string>
+
+    <string name="q4opt1arrest">80-100 compressions.</string>
+    <string name="q4opt2arrest">90-100 compressions.</string>
+    <string name="q4opt3arrest">90-110 compressions.</string>
+    <string name="q4opt4arrest">100-120 compressions.</string>
+
+    <string name="q5opt1arrest">Automated External Device. Only someone from the Emergency Medical Service.</string>
+    <string name="q5opt2arrest">Automated External Defibrillator. Anyone oriented to use.</string>
+    <string name="q5opt3arrest">Automated External Device. Anyone oriented to use.</string>
+    <string name="q5opt4arrest">Automated External Defibrillator. Only someone from the Emergency Medical Service.</string>
+
+    <string name="q6opt1arrest">It analyzes the person\'s heartbeats and, when it is appropriate, applies a shock for the heart to beat again.</string>
+    <string name="q6opt2arrest">It analyzes the person\'s heart and makes compression to her chest.</string>
+    <string name="q6opt3arrest">It applies a shock to the person\'s heart so that it beats again.</string>
+    <string name="q6opt4arrest">It analyzes the victim\'s heart.</string>
+
 </resources>

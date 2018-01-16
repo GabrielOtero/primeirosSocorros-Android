@@ -17,4 +17,15 @@ public class Constants {
     public static int Q2_SEIZURE_CORRECT_ANSWER = R.id.opt3_check;
     public static int Q3_SEIZURE_CORRECT_ANSWER = R.id.opt2_check;
 
+    public static int Q1_FAINTING_CORRECT_ANSWER = R.id.opt2_check;
+    public static int Q2_FAINTING_CORRECT_ANSWER = R.id.opt4_check;
+    public static int Q3_FAINTING_CORRECT_ANSWER = R.id.opt1_check;
+
+    public static int Q1_ARREST_CORRECT_ANSWER = R.id.opt1_check;
+    public static int Q2_ARREST_CORRECT_ANSWER = R.id.opt3_check;
+    public static int Q3_ARREST_CORRECT_ANSWER = R.id.opt2_check;
+    public static int Q4_ARREST_CORRECT_ANSWER = R.id.opt4_check;
+    public static int Q5_ARREST_CORRECT_ANSWER = R.id.opt2_check;
+    public static int Q6_ARREST_CORRECT_ANSWER = R.id.opt1_check;
+
 }
