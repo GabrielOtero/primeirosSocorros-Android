@@ -10,6 +10,7 @@
     <string name="nextStoryLabel">GO TO %1$s!</string>
     <string name="sendLabel">SEND!</string>
     <string name="nowAnswerLabel">NOW ANSWER...</string>
+    <string name="answerAllQuesitons">Answer all questions before sending</string>
 
     <string name="quizz_right">CORRECT!</string>
     <string name="quizz_wrong">WRONG</string>

@@ -116,4 +116,8 @@ public class QuestionLayout extends ConstraintLayout {
         RadioGroup radioGroup = findViewById(R.id.radio_group);
         return radioGroup.getCheckedRadioButtonId();
     }
+
+    public boolean isAnswered() {
+        return getSelectedAnswer() != -1;
+    }
 }

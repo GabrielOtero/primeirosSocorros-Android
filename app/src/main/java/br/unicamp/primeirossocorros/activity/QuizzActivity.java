@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.widget.Toast;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
@@ -151,6 +152,24 @@ public class QuizzActivity extends BaseActivity {
 
     @OnClick(R.id.send_quizz)
     public void sendQuizz() {
+
+        if(!question1.isAnswered() || !question2.isAnswered() || !question3.isAnswered()){
+            Toast.makeText(this, getResources().getString(R.string.answerAllQuesitons),
+                    Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        if (storyType == StoryType.ARREST) {
+            if(!question4.isAnswered() || !question5.isAnswered() || !question6.isAnswered()){
+                Toast.makeText(this, getResources().getString(R.string.answerAllQuesitons),
+                        Toast.LENGTH_LONG).show();
+                return;
+            }
+            question4.setFeedback();
+            question5.setFeedback();
+            question6.setFeedback();
+        }
+
         question1.setFeedback();
         question2.setFeedback();
         question3.setFeedback();

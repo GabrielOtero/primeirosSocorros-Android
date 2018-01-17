@@ -10,6 +10,7 @@
     <string name="nextStoryLabel">IR A %1$s!</string>
     <string name="sendLabel">ENVIAR!</string>
     <string name="nowAnswerLabel">AHORA RESPONDA...</string>
+    <string name="answerAllQuesitons">Responda todas las preguntas antes de enviar</string>
 
     <string name="quizz_right">CORRECTO!</string>
     <string name="quizz_wrong">INCORRECTO</string>

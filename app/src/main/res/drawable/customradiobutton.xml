@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true" android:drawable="@drawable/checkedpressed" />
-    <item android:state_checked="false" android:drawable="@drawable/checked" />
+    <item android:drawable="@drawable/checked" android:state_checked="true" android:state_window_focused="false" />
+    <item android:drawable="@drawable/checked" android:state_checked="false" android:state_window_focused="false" />
+    <item android:drawable="@drawable/checkedpressed" android:state_checked="true" android:state_pressed="true" />
+    <item android:drawable="@drawable/checkedpressed" android:state_checked="false" android:state_pressed="true" />
+    <item android:drawable="@drawable/checked" android:state_checked="true" android:state_focused="true" />
+    <item android:drawable="@drawable/checked" android:state_checked="false" android:state_focused="true" />
+    <item android:drawable="@drawable/checked" android:state_checked="false" />
+    <item android:drawable="@drawable/checked" android:state_checked="true" />
 </selector>
