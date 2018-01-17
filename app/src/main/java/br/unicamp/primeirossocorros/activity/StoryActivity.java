@@ -1,6 +1,7 @@
 package br.unicamp.primeirossocorros.activity;
 
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -8,27 +9,73 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 import br.unicamp.primeirossocorros.util.Constants;
 import br.unicamp.primeirossocorros.util.StoryType;
 import br.unicamp.primeirossocorros.fragment.NowChoosePageFragment;
 import br.unicamp.primeirossocorros.R;
 import br.unicamp.primeirossocorros.fragment.SlidePageFragment;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class StoryActivity extends BaseActivity {
-    private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
+
+    @BindView(R.id.pager)
+    ViewPager mPager;
+
+    @BindView(R.id.pageIndicator)
+    LinearLayout pageIndicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story);
+        ButterKnife.bind(this);
 
         StoryType storyType = (StoryType) getIntent().getSerializableExtra(Constants.STORY_TYPE);
 
-        mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager(), storyType);
         mPager.setAdapter(mPagerAdapter);
+
+        setPageIndicators(storyType);
+    }
+
+    protected void setPageIndicators(StoryType storyType) {
+        for (int i = 0; i < storyType.getStoryLength(); i++){
+            TextView txtView = new TextView(this);
+            txtView.setBackground(getResources().getDrawable(R.drawable.layout_unselected_gray));
+
+            LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            llp.setMargins(0, 0, 20, 0);
+
+            llp.height = 20;
+            llp.width = 20;
+
+            txtView.setLayoutParams(llp);
+
+            pageIndicator.addView(txtView);
+        }
+    }
+
+    protected void setCurrentPageIndicator(){
+        int idx = mPager.getCurrentItem();
+        Log.d("POS", String.valueOf(idx));
+        for(int i = 0; i < pageIndicator.getChildCount(); i++){
+            TextView txtView = (TextView) pageIndicator.getChildAt(i);
+            if(idx == i){
+                txtView.setBackground(getResources().getDrawable(R.drawable.layout_selected_gray));
+            }else{
+                txtView.setBackground(getResources().getDrawable(R.drawable.layout_unselected_gray));
+            }
+        }
     }
 
 
@@ -67,6 +114,12 @@ public class StoryActivity extends BaseActivity {
             slidePageFragment.setStoryType(storyType);
             slidePageFragment.setPosition(position);
             return slidePageFragment;
+        }
+
+        @Override
+        public void finishUpdate(ViewGroup container) {
+            setCurrentPageIndicator();
+            super.finishUpdate(container);
         }
 
         @Override
