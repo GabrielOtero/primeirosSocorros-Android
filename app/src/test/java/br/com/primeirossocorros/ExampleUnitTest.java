@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros;
+package br.com.primeirossocorros;
 
 import org.junit.Test;
 

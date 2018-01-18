@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros.fragment;
+package br.com.primeirossocorros.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,11 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.activity.MenuActivity;
-import br.unicamp.primeirossocorros.activity.QuizzActivity;
-import br.unicamp.primeirossocorros.util.Constants;
-import br.unicamp.primeirossocorros.util.StoryType;
+import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.activity.MenuActivity;
+import br.com.primeirossocorros.activity.QuizzActivity;
+import br.com.primeirossocorros.util.Constants;
+import br.com.primeirossocorros.util.StoryType;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 

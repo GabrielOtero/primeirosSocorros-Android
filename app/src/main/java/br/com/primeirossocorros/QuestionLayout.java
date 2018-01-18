@@ -1,14 +1,13 @@
-package br.unicamp.primeirossocorros;
+package br.com.primeirossocorros;
 
 import android.content.Context;
-import android.graphics.Typeface;
 import android.support.constraint.ConstraintLayout;
 import android.support.v4.content.res.ResourcesCompat;
 import android.util.AttributeSet;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import br.unicamp.primeirossocorros.util.StoryType;
+import br.com.primeirossocorros.util.StoryType;
 
 public class QuestionLayout extends ConstraintLayout {
 

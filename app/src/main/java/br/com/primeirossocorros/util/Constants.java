@@ -1,6 +1,6 @@
-package br.unicamp.primeirossocorros.util;
+package br.com.primeirossocorros.util;
 
-import br.unicamp.primeirossocorros.R;
+import br.com.primeirossocorros.R;
 
 public class Constants {
     public static String STORY_TYPE = "STORY_TYPE";

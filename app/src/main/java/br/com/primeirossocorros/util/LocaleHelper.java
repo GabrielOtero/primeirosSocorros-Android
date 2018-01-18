@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros.util;
+package br.com.primeirossocorros.util;
 
 
 import android.annotation.TargetApi;

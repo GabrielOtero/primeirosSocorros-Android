@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros.activity;
+package br.com.primeirossocorros.activity;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -15,10 +15,10 @@ import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.List;
 
-import br.unicamp.primeirossocorros.QuestionLayout;
-import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.util.Constants;
-import br.unicamp.primeirossocorros.util.StoryType;
+import br.com.primeirossocorros.QuestionLayout;
+import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.util.Constants;
+import br.com.primeirossocorros.util.StoryType;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

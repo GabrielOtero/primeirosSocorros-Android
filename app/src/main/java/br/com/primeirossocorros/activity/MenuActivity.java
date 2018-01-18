@@ -1,16 +1,15 @@
-package br.unicamp.primeirossocorros.activity;
+package br.com.primeirossocorros.activity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 
-import br.unicamp.primeirossocorros.util.Constants;
-import br.unicamp.primeirossocorros.util.LocaleHelper;
-import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.util.StoryType;
+import br.com.primeirossocorros.util.Constants;
+import br.com.primeirossocorros.util.LocaleHelper;
+import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.util.StoryType;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<br.unicamp.primeirossocorros.QuestionLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+<br.com.primeirossocorros.QuestionLayout xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/q1_layout"
@@ -81,4 +81,4 @@
         android:visibility="gone"
         android:textSize="@dimen/question_feedback_text_size"
         android:text="CORRETO!"/>
-</br.unicamp.primeirossocorros.QuestionLayout>
+</br.com.primeirossocorros.QuestionLayout>

@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros.fragment;
+package br.com.primeirossocorros.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,9 +8,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.util.LocaleHelper;
-import br.unicamp.primeirossocorros.util.StoryType;
+import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.util.LocaleHelper;
+import br.com.primeirossocorros.util.StoryType;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

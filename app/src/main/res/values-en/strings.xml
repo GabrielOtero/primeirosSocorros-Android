@@ -4,7 +4,7 @@
     <string name="choking">Choking</string>
     <string name="seizure">Seizure</string>
     <string name="fainting">Fainting</string>
-    <string name="arrest">Cardiorespiratory arrest</string>
+    <string name="arrest">Cardiac\narrest</string>
 
     <string name="backToMenuLabel">RETURN TO MENU</string>
     <string name="nextStoryLabel">GO TO %1$s!</string>

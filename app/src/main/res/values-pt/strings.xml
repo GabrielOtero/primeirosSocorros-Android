@@ -4,7 +4,7 @@
     <string name="choking">Engasgo</string>
     <string name="seizure">Convulsão</string>
     <string name="fainting">Desmaio</string>
-    <string name="arrest">Parada\nCardiorespiratória</string>
+    <string name="arrest">Parada\nCardíaca</string>
 
     <string name="backToMenuLabel">VOLTAR PARA O MENU!</string>
     <string name="nextStoryLabel">IR PARA %1$s!</string>

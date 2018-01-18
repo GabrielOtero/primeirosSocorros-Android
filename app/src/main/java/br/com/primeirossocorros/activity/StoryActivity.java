@@ -1,7 +1,6 @@
-package br.unicamp.primeirossocorros.activity;
+package br.com.primeirossocorros.activity;
 
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -10,18 +9,15 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
-import br.unicamp.primeirossocorros.util.Constants;
-import br.unicamp.primeirossocorros.util.StoryType;
-import br.unicamp.primeirossocorros.fragment.NowChoosePageFragment;
-import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.fragment.SlidePageFragment;
+import br.com.primeirossocorros.util.Constants;
+import br.com.primeirossocorros.util.StoryType;
+import br.com.primeirossocorros.fragment.NowChoosePageFragment;
+import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.fragment.SlidePageFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

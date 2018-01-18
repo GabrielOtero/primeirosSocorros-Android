@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros.activity;
+package br.com.primeirossocorros.activity;
 
 
 import android.content.Intent;
@@ -7,8 +7,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.widget.ImageView;
 
-import br.unicamp.primeirossocorros.R;
-import br.unicamp.primeirossocorros.util.LocaleHelper;
+import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.util.LocaleHelper;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

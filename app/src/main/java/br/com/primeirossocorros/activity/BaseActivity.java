@@ -1,10 +1,10 @@
-package br.unicamp.primeirossocorros.activity;
+package br.com.primeirossocorros.activity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 
-import br.unicamp.primeirossocorros.util.LocaleHelper;
+import br.com.primeirossocorros.util.LocaleHelper;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 

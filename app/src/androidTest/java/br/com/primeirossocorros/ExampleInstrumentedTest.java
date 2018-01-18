@@ -1,4 +1,4 @@
-package br.unicamp.primeirossocorros;
+package br.com.primeirossocorros;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
