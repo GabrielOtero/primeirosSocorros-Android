@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "br.unicamp.primeirossocorros"
+        applicationId "br.com.primeirossocorros"
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
@@ -28,7 +28,10 @@ dependencies {
 
     compile 'com.jakewharton:butterknife:8.8.1'
     compile 'uk.co.chrisjenx:calligraphy:2.3.0'
+    compile 'com.google.firebase:firebase-core:11.0.4'
 
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 
 }
+
+apply plugin: 'com.google.gms.google-services'
