@@ -6,9 +6,9 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import br.com.primeirossocorros.R;
 import br.com.primeirossocorros.util.Constants;
 import br.com.primeirossocorros.util.LocaleHelper;
-import br.com.primeirossocorros.R;
 import br.com.primeirossocorros.util.StoryType;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -16,22 +16,22 @@ import butterknife.OnClick;
 
 public class MenuActivity extends BaseActivity {
 
-    @BindView(R.id.what_label)
+    @BindView(R.id.what)
     TextView whatLabel;
 
-    @BindView(R.id.trauma_label)
+    @BindView(R.id.trauma)
     TextView traumaLabel;
 
-    @BindView(R.id.choking_label)
+    @BindView(R.id.choking)
     TextView chokingLabel;
 
-    @BindView(R.id.seizure_label)
+    @BindView(R.id.seizure)
     TextView seizureLabel;
 
-    @BindView(R.id.fainting_label)
+    @BindView(R.id.fainting)
     TextView faintingLabel;
 
-    @BindView(R.id.arrest_label)
+    @BindView(R.id.arrest)
     TextView arrestLabel;
 
 
