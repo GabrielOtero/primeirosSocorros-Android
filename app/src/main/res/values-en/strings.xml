@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Primeiros Socorros</string>
     <string name="what">What is it?</string>
     <string name="trauma">Trauma</string>
     <string name="choking">Choking</string>

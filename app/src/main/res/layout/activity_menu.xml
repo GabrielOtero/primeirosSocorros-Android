@@ -54,7 +54,7 @@
             <TextView
                 android:id="@+id/what"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@mipmap/blank_bg"
@@ -66,7 +66,7 @@
             <TextView
                 android:id="@+id/trauma"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@mipmap/blank_bg"
@@ -78,7 +78,7 @@
             <TextView
                 android:id="@+id/choking"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@mipmap/blank_bg"
@@ -99,7 +99,7 @@
             <TextView
                 android:id="@+id/seizure"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@mipmap/blank_bg"
@@ -111,7 +111,7 @@
             <TextView
                 android:id="@+id/fainting"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@mipmap/blank_bg"
@@ -123,7 +123,7 @@
             <TextView
                 android:id="@+id/arrest"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@mipmap/blank_bg"

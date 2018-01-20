@@ -1,5 +1,6 @@
 package br.com.primeirossocorros.fragment;
 
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -38,12 +39,23 @@ public class SlidePageFragment extends Fragment {
         String locale = LocaleHelper.getLanguage(getActivity());
 
         String imageResource = storyType.getDescription() + String.valueOf(position) + locale;
+
         int id = getResources().getIdentifier(imageResource, "drawable",
                 getActivity().getPackageName());
+
+        if(storyImage != null && storyImage.getDrawable() != null) {
+            ((BitmapDrawable)storyImage.getDrawable()).getBitmap().recycle();
+        }
 
         storyImage.setImageResource(id);
 
         return view;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        storyImage.setImageDrawable(null);
     }
 
     public void setStoryType(StoryType storyType) {
