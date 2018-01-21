@@ -17,6 +17,7 @@ import java.util.List;
 
 import br.com.primeirossocorros.QuestionLayout;
 import br.com.primeirossocorros.R;
+import br.com.primeirossocorros.listener.QuestionFeedbackListenerImpl;
 import br.com.primeirossocorros.util.Constants;
 import br.com.primeirossocorros.util.StoryType;
 import butterknife.BindView;
@@ -95,7 +96,8 @@ public class QuizzActivity extends BaseActivity {
 
         int correctAnswer = getCorrectAnswer(questioIdx);
 
-        question.setInfo(questionLabel, opt1, opt2, opt3, opt4, correctAnswer);
+        QuestionFeedbackListenerImpl listener = new QuestionFeedbackListenerImpl(storyType.getDescription(), questioIdx, this);
+        question.setInfo(questionLabel, opt1, opt2, opt3, opt4, correctAnswer, listener);
     }
 
     private String getQuestionLabel(int questioNumber) {
