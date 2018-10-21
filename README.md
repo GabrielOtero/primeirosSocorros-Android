@@ -1,7 +1,7 @@
 # Android App of First Aid for Kids
 
 Play Store
-https://play.google.com/store/apps/details?id=br.unicamp.PrimeirosSocorros&hl=pt_BR
+https://play.google.com/store/apps/details?id=br.com.primeirossocorros
 
 
 On Apple Store as Primeiros Socorros Unicamp
